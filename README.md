@@ -2,7 +2,7 @@
 
 <img src="img/saturn.png" width="400" />
 
-## Hands-on workshop: migrate data science workloads to Dask clusters
+## Hands-on workshop: migrate data science workloads to Dask clusters in Saturn Cloud
 
 In this hands-on workshop, attendees will have the opportunity to see how a standard data science and machine learning workflow using pandas and scikit-learn can be easily parallelized using Dask clusters on Saturn Cloud.
 
@@ -16,6 +16,8 @@ After this workshop you will know:
 To get the full learning value from this workshop, attendees should have prior experience with machine learning in Python. Experience with parallel computing is not needed.
 
 ## Getting started
+
+### Steps
 
 1. Create an account on [Saturn Cloud Hosted](https://accounts.community.saturnenterprise.io/register) or use your organization's existing Saturn Cloud Enterprise installation. 
 1. Create a new project (keep defaults unless specified here)
@@ -33,8 +35,18 @@ To get the full learning value from this workshop, attendees should have prior e
 1. Open Jupyter Lab
 1. From Jupyter Lab, open a new Terminal window and clone the workshop-scaling-ml repository:
     ```bash
-    git clone https://github.com/saturncloud/workshop-scaling-ml.git /tmp
+    git clone https://github.com/saturncloud/workshop-scaling-ml.git /tmp/workshop-scaling-ml
     cp -r /tmp/workshop-scaling-ml /home/jovyan/project
     ```
 1. Navigate to the "workshop-scaling-ml" folder in the File browser and start from the [01-start.ipynb](01-start.ipynb) notebook.
 
+
+### Screenshots
+
+The project from the Saturn UI should look something like this:
+
+![project](img/project.png)
+
+JupyterLab should look like this:
+
+![jupyterlab](img/jupyterlab.png)
