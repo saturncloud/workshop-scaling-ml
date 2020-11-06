@@ -1,6 +1,6 @@
-# Scaling Machine Learning in Python
+<img style="float: right" src="img/saturn.png" width="300" />
 
-<img src="img/saturn.png" width="400" />
+# Scaling Machine Learning in Python
 
 ## Hands-on workshop: migrate data science workloads to Dask clusters in Saturn Cloud
 
